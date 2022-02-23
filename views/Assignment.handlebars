@@ -1,0 +1,72 @@
+<h1>{{title}}</h1>
+<section id="contactBlock">
+  <article>
+    <form method="post" action="/Assignment">
+      <div>
+        <lable for="title">Assignment title</lable>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="Enter your Assignment title"
+          required
+        />
+      </div>
+      <div>
+        <lable for="Category">Category</lable>
+        <select name="Category" id="Category">
+          <option value="Html">HTML</option>
+          <option value="css">Css</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="ReactJs">ReactJs</option>
+          <option value="ReactJs">NodeJs</option>
+          Category
+        </select>
+      </div>
+      <div>
+        <lable for="trainer">Trainer Name</lable>
+        <input
+          type="text"
+          id="trainer"
+          name="trainer"
+          placeholder="Enter your Trainer Name"
+          required
+        />
+      </div>
+      <div>
+        <lable for="phone">Trainee Phone Number </lable>
+        <input
+          type="phone"
+          id="phone"
+          name="phone"
+          placeholder="Enter your Trainee  Number"
+          required
+        />
+      </div>
+      <div>
+        <lable for="email">Trainee Eamil </lable>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your Trainee  Email"
+          required
+        />
+      </div>
+      <div>
+        <lable for="description">Trainee Description </lable>
+        <textarea
+          cols="30"
+          rows="0"
+          name="description"
+          oncopy="return false"
+          onpaste="return false"
+        >
+        </textarea>
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+  </article>
+</section>
